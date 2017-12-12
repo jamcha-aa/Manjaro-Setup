@@ -3,8 +3,8 @@ author: jamcha (jamcha.aa@gmail.com)
 
 This program changes system files. Be aware of what this script do.
 
-Manjaro-setup.sh changes /tmp location to user directory for avoiding /tmp restriction under Manjaro AUR.
-This program is made for single user. Don't use this on multi-user environments.
+Manjaro-setup.sh relocates yaourt working directory to a particular user directory for avoiding /tmp restriction under Manjaro AUR.
+Don't use this on multi-user environments.
 
 ### Install
 1. In manjaro-setup.sh, edit "user" to your user name.

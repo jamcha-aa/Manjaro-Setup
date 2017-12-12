@@ -1,5 +1,5 @@
 # Manjaro-Setup
-By now, personal configuration for manjaro setup script for avoiding /tmp restriction.
+By now, this script is my personal configuration for avoiding /tmp restriction under Manjaro AUR.
 
 # License
 NYSL. (http://www.kmonos.net/nysl/)

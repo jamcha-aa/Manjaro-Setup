@@ -3,7 +3,7 @@ author: jamcha (jamcha.aa@gmail.com)
 
 This program changes system files. Be aware of what this script do.
 
-Manjaro-setup.sh relocates yaourt working directory to a particular user directory for avoiding /tmp restriction under Manjaro AUR.
+yaourt-tmp-changer.sh relocates yaourt working directory to a particular user directory for avoiding /tmp restriction under Manjaro AUR.
 Don't use this on multi-user environments.
 
 ### Usage
@@ -13,7 +13,7 @@ Run with the *username* argument.
 
 For example,
 
-    $ sudo bash manjaro-setup.sh jamcha
+    $ sudo bash yaourt-tmp-changer.sh jamcha
 
 ### License
 NYSL. (http://www.kmonos.net/nysl/)

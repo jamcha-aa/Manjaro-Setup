@@ -1,4 +1,4 @@
-## Manjaro-Setup
+## yaourt-tmp-changer
 author: jamcha (jamcha.aa@gmail.com)
 
 This program changes system files. Be aware of what this script do.

@@ -6,10 +6,14 @@ This program changes system files. Be aware of what this script do.
 Manjaro-setup.sh relocates yaourt working directory to a particular user directory for avoiding /tmp restriction under Manjaro AUR.
 Don't use this on multi-user environments.
 
-### Install
-1. In manjaro-setup.sh, edit "user" to your user name.
-2. **BACKUP** /etc/yaourtrc and /etc/makepkg.conf.
-3. Run manjaro-setup.sh with root privilege.
+### Usage
+This script must be run with root privilege.
+
+Run with argument of *your username*.
+
+For example,
+
+   manjaro-setup.sh jamcha
 
 ### License
 NYSL. (http://www.kmonos.net/nysl/)

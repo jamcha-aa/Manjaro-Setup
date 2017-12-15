@@ -8,7 +8,7 @@ fi
 
 cp /etc/yaourtrc /etc/yaourtrc.OLD
 cp /etc/makepkg.conf /etc/makepkg.conf.OLD
-sed -i -e "s/\\#TMPDIR=\"\\/tmp/TMPDIR=\"\\/home\\/$#\\/tmp\\/yaourt/g" /etc/yaourtrc
-sed -i -e "s/\\#BUILDDIR=\\/tmp\\/makepkg/BUILDDIR=\\/home\\/$#\\/tmp\\/makepkg/g" /etc/makepkg.conf
-mkdir -p /home/$#/tmp/yaourt && mkdir /home/$#/tmp/makepkg
-chown -R $#:$# /home/$#/tmp
+sed -i -e "s/\\#TMPDIR=\"\\/tmp/TMPDIR=\"\\/home\\/$1\\/tmp\\/yaourt/g" /etc/yaourtrc
+sed -i -e "s/\\#BUILDDIR=\\/tmp\\/makepkg/BUILDDIR=\\/home\\/$1\\/tmp\\/makepkg/g" /etc/makepkg.conf
+mkdir -p /home/$1/tmp/yaourt && mkdir /home/$1/tmp/makepkg
+chown -R $1:$1 /home/$1/tmp

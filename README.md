@@ -9,11 +9,11 @@ Don't use this on multi-user environments.
 ### Usage
 This script must be run with root privilege.
 
-Run with argument of *your username*.
+Run with the *username* argument.
 
 For example,
 
-$ sudo bash manjaro-setup.sh jamcha
+    $ sudo bash manjaro-setup.sh jamcha
 
 ### License
 NYSL. (http://www.kmonos.net/nysl/)

@@ -13,7 +13,7 @@ Run with argument of *your username*.
 
 For example,
 
-   manjaro-setup.sh jamcha
+$ sudo bash manjaro-setup.sh jamcha
 
 ### License
 NYSL. (http://www.kmonos.net/nysl/)

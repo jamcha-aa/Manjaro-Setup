@@ -2,7 +2,7 @@
 # reference: https://gae-fan.blogspot.jp/2014/10/yaourt-tmp.html
 
 if [ $# -ne 1 ]; then
-  echo "Insert your name."
+  echo "Input your name."
   exit 1
 fi
 

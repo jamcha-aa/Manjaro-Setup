@@ -15,5 +15,8 @@ For example,
 
     $ sudo bash yaourt-tmp-changer.sh jamcha
 
+### Uninstall
+Recovery original files from /etc/yaoutrc.OLD and /etc/makepkg.conf.OLD.
+
 ### License
 NYSL. (http://www.kmonos.net/nysl/)
